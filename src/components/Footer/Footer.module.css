@@ -1,0 +1,15 @@
+.footer {
+    color: var(--colorBlanco);
+    padding: 1.4rem 0;
+    background-color: var(--colorNegro);
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.span_link_portfolio {
+    color: var(--colorBlanco);
+}
+
+.span_link_portfolio:hover {
+    text-decoration: underline;
+}

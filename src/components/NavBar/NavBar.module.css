@@ -1,0 +1,5 @@
+.navbar {
+    padding: var(--padmarg);
+    color: var(--colorBlanco);
+    background-color: var(--colorNegro);
+}
