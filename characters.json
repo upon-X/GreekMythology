@@ -1,0 +1,57 @@
+{
+    "dioses": [
+        {
+            "nombre": "Zeus",
+            "reconocimiento": [
+                "Rey de los dioses",
+                "Dios del Cielo",
+                "Dios del Rayo"
+            ],
+            "familia": {
+                "padre": "Cronos",
+                "madre": "Rea",
+                "hermanos": [
+                    "Hades",
+                    "Hera",
+                    "Deméter",
+                    "Poseidón",
+                    "Hestia"
+                ]
+            }
+        },
+        {
+            "nombre": "Atenea",
+            "reconocimiento": [
+                "Diosa de la sabiduría",
+                "Diosa de la estrategia"
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Metis (engullida por Zeus)",
+                "hermanos": [
+                    "Apolo",
+                    "Artemisa"
+                ]
+            },
+            "descripcionEs": "Atenea"
+        },
+        {
+            "nombre": "Afrodita",
+            "reconocimiento": [
+                "Diosa del amor y la belleza"
+            ],
+            "familia": {
+                "padre": "Urano (nacida de la espuma del mar)",
+                "madre": null,
+                "hermanos": [
+                    "Hera",
+                    "Hades",
+                    "Deméter",
+                    "Poseidón",
+                    "Hestia",
+                    "Zeus"
+                ]
+            }
+        }
+    ]
+}

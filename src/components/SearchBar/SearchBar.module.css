@@ -1,0 +1,26 @@
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar_input {
+    width: 300px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--colorNaranja);
+    border: 1px solid var(--colorNegro);
+    text-transform: uppercase;
+    font-family: var(--fontfamily);
+    background-color: var(--colorNegro);
+}
+
+.select {
+    width: 190px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--colorNaranja);
+    font-family: var(--fontfamily);
+    background-color: var(--colorNegro);
+    border: 1px solid var(--colorNegro);
+}
