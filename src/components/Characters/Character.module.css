@@ -1,0 +1,53 @@
+.character {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.character_card {
+    padding: 1rem;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 450px;
+    background-color: var(--colorNegro);
+    color: var(--colorBlanco);
+    border: 3px solid transparent;
+    transition: ease-in-out 0.15s;
+}
+
+.character_card:hover {
+    border: 3px solid var(--colorNaranja);
+}
+
+.character_img {
+    aspect-ratio: 1/1;
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid transparent;
+    transition: ease-in-out 0.15s;
+}
+
+.character_card:hover .character_img {
+    border: 2px solid var(--colorNaranja);
+}
+
+.character_nombre {
+    font-size: 1.7rem;
+    color: var(--colorNaranja);
+}
+
+.character_especie,
+.character_reconocimiento {
+    text-indent: 0;
+    font-size: 1.2rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}

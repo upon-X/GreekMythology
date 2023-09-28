@@ -4,3 +4,10 @@ export function orderByName(payload) { //asc y desc
         payload
     }
 }
+
+export const setCharacters = (greekcharacters) => {
+    return {
+        type: 'SET_CHARACTERS',
+        payload: greekcharacters,
+    };
+};

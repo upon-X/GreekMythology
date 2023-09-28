@@ -1,0 +1,147 @@
+{
+    "greekcharacters": [
+        {
+            "nombre": "Zeus",
+            "especieEs": "Dios",
+            "especieEn": "God",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/f_auto,q_auto/v1/Characters%20Greek%20Mythology/r55ooldskhvx1xddccs8",
+            "reconocimientoEs": [
+                "Rey de los dioses",
+                "Dios del Cielo",
+                "Dios del Rayo"
+            ],
+            "reconocimientoEn": [
+                "King of Gods",
+                "God of the Sky",
+                "God of the lightning"
+            ],
+            "familia": {
+                "padre": "Cronos",
+                "madre": "Rea",
+                "hermanos": [
+                    "Hades",
+                    "Hera",
+                    "Deméter",
+                    "Poseidón",
+                    "Hestia",
+                    "Afrodita"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Atenea",
+            "especieEs": "Diosa",
+            "especieEn": "Goddess",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889086/Characters%20Greek%20Mythology/uve28rf4rcgw2md0yjbu.jpg",
+            "reconocimientoEs": [
+                "Diosa de la sabiduría",
+                "Diosa de la estrategia"
+            ],
+            "reconocimientoEn": [
+                "Goddess of wisdom",
+                "Goddess of strategy"
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Metis (engullida por Zeus)",
+                "hermanos": [
+                    "Apolo",
+                    "Artemisa"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Afrodita",
+            "especieEs": "Diosa",
+            "especieEn": "Goddess",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695887438/Characters%20Greek%20Mythology/tbnusfvb63le36vdonzh.png",
+            "reconocimientoEs": [
+                "Diosa del amor y la belleza"
+            ],
+            "reconocimientoEn": [
+                "Goddess of love and beauty"
+            ],
+            "familia": {
+                "padre": "Urano",
+                "madre": "",
+                "hermanos": [
+                    "Hera",
+                    "Hades",
+                    "Deméter",
+                    "Poseidón",
+                    "Hestia",
+                    "Zeus"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Quiron",
+            "especieEs": "Centauro",
+            "especieEn": "Centaur",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.jpg",
+            "reconocimientoEs": [
+                ""
+            ],
+            "reconocimientoEn": [
+                ""
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Heracles",
+            "especieEs": "Semidios",
+            "especieEn": "Demigod",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.jpg",
+            "reconocimientoEs": [
+                ""
+            ],
+            "reconocimientoEn": [
+                ""
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Alcmena",
+                "hermanos": [
+                    "Ificles"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Sísifo",
+            "especieEs": "Humano",
+            "especieEn": "Human",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.jpg",
+            "reconocimientoEs": [
+                ""
+            ],
+            "reconocimientoEn": [
+                ""
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        }
+    ]
+}

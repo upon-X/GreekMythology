@@ -15,7 +15,7 @@
 }
 
 .select {
-    width: 190px;
+    width: 160px;
     padding: 0.5rem;
     font-size: 1.1rem;
     text-align: center;
@@ -23,4 +23,12 @@
     font-family: var(--fontfamily);
     background-color: var(--colorNegro);
     border: 1px solid var(--colorNegro);
+}
+
+@media (max-width: 930px) {
+    .searchbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 }

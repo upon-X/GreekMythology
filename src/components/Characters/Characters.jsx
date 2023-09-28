@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../LanguageChange';
 import SearchBar from '../SearchBar/SearchBar';
+import Character from './Character';
 import styles from './Characters.module.css'
 
 export default function Characters() {
@@ -15,6 +16,7 @@ export default function Characters() {
                     }
                 </h1>
                 <SearchBar />
+                <Character />
             </div>
         </div>
     )
