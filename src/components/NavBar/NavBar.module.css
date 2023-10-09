@@ -21,6 +21,8 @@
 }
 
 .btn_change_lang {
+    display: flex;
+    justify-content: center;
     transition: ease-in-out 0.1s;
     width: 150px;
 }
@@ -45,6 +47,11 @@
 
 .logo {
     color: var(--colorNaranja);
+}
+
+.spanlang {
+    display: flex;
+    gap: 5px;
 }
 
 @media (max-width: 930px) {

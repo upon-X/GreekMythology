@@ -60,10 +60,12 @@
             "especieEn": "Goddess",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695887438/Characters%20Greek%20Mythology/tbnusfvb63le36vdonzh.png",
             "reconocimientoEs": [
-                "Diosa del amor y la belleza"
+                "Diosa del amor y la belleza",
+                "Amante de Ares"
             ],
             "reconocimientoEn": [
-                "Goddess of love and beauty"
+                "Goddess of love and beauty",
+                "Lover of Ares"
             ],
             "familia": {
                 "padre": "Urano",
@@ -86,14 +88,18 @@
             "especieEn": "Centaur",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.jpg",
             "reconocimientoEs": [
-                ""
+                "Gran Educador",
+                "El centauro sabio",
+                "Tutor de Aquiles, Ayax, Jasón, y muchos otros."
             ],
             "reconocimientoEn": [
-                ""
+                "Great Educator",
+                "The wise centaur",
+                "Tutor of Achilles, Ajax, Jason, and many others"
             ],
             "familia": {
-                "padre": "",
-                "madre": "",
+                "padre": "Cronos",
+                "madre": "Fílira",
                 "hermanos": [
                     ""
                 ]
@@ -107,10 +113,10 @@
             "especieEn": "Demigod",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.jpg",
             "reconocimientoEs": [
-                ""
+                "Los Doce Trabajos de Heracles"
             ],
             "reconocimientoEn": [
-                ""
+                "The Twelve Tasks of Heracles."
             ],
             "familia": {
                 "padre": "Zeus",
@@ -128,14 +134,65 @@
             "especieEn": "Human",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.jpg",
             "reconocimientoEs": [
-                ""
+                "El hombre más inteligente",
+                "El castigo de Sísifo"
             ],
             "reconocimientoEn": [
-                ""
+                "The smartest man",
+                "The punishment of Sisyphus"
             ],
             "familia": {
                 "padre": "",
                 "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Poseidon",
+            "especieEs": "Dios",
+            "especieEn": "God",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/t_poseidon_transform/Characters%20Greek%20Mythology/wpbewcmncvcob9oqhfq8.jpg",
+            "reconocimientoEs": [
+                "Dios de los mares y oceanos",
+                "Dios de los terremotos e inundaciones"
+            ],
+            "reconocimientoEn": [
+                "God of seas and oceans",
+                "God of earthquakes and floods"
+            ],
+            "familia": {
+                "padre": "Cronos",
+                "madre": "Rea",
+                "hermanos": [
+                    "Hades",
+                    "Hera",
+                    "Deméter",
+                    "Zeus",
+                    "Hestia",
+                    "Afrodita"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Tántalo",
+            "especieEs": "Semidios",
+            "especieEn": "Demigod",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1696853184/Characters%20Greek%20Mythology/zbmkpzsgsxbqxo9qxv40.jpg",
+            "reconocimientoEs": [
+                "El castigo de Tántalo"
+            ],
+            "reconocimientoEn": [
+                "The punishment of Tantalus"
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Pluto",
                 "hermanos": [
                     ""
                 ]
