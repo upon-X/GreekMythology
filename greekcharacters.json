@@ -199,6 +199,29 @@
             },
             "descripcionEs": "Algo le pondre",
             "descripcionEn": "Something"
+        },
+        {
+            "nombre": "Ixión",
+            "especieEs": "Humano",
+            "especieEn": "Human",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1701859354/Characters%20Greek%20Mythology/o3h42c9nkchllqbjoc1v.webp",
+            "reconocimientoEs": [
+                "Matanza de Deyoneo",
+                "El castigo de Ixión"
+            ],
+            "reconocimientoEn": [
+                "Murderer of Deyoneo",
+                "The punishment of Ixion"
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
         }
     ]
 }

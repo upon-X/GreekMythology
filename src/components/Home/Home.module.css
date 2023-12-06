@@ -51,6 +51,22 @@
     color: var(--colorBlanco);
 }
 
+.link_to_characters {
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--colorNaranja);
+    stroke: var(--colorNaranja);
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.link_to_characters:hover,
+.link_to_characters:hover .link_to_characters_svg {
+    color: var(--colorNaranjaB);
+    stroke: var(--colorNaranjaB);
+}
+
 @media (max-width: 930px) {
     .div_main {
         margin-top: 12rem;
