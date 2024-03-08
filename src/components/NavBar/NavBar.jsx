@@ -29,10 +29,10 @@ export default function NavBar() {
                     {/* <Link className={styles.nav_link} to='/battles'>
                         {language === 'español' ? 'Batallas' : 'Battles'}
                     </Link> */}
+                    <button className={styles.btn_change_lang} onClick={handleLanguageChange}>
+                        {language === 'español' ? <span className={styles.spanlang}>ES< img width={30} src={Spain}></img></span> : <span className={styles.spanlang}>EN < BritishFlag /></span>}
+                    </button>
                 </div>
-                <button className={styles.btn_change_lang} onClick={handleLanguageChange}>
-                    {language === 'español' ? <span className={styles.spanlang}>ES< img width={30} src={Spain}></img></span> : <span className={styles.spanlang}>EN < BritishFlag /></span>}
-                </button>
             </nav>
         </div>
     )

@@ -24,18 +24,14 @@
     display: flex;
     justify-content: center;
     transition: ease-in-out 0.1s;
-    width: 150px;
-}
-
-.btn_change_lang:hover {
+    width: 80px;
     border-color: var(--colorNaranja);
-    background-color: var(--colorNaranja);
 }
 
 .nav_link {
     text-align: center;
-    width: 100px;
-    padding: 0.2rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
     color: var(--colorNaranja);
     transition: ease-in-out 0.1s;
 }
@@ -54,15 +50,15 @@
     gap: 5px;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 800px) {
     .navbar {
-        gap: 1rem;
+        gap: 0.5rem;
         flex-direction: column;
     }
 
     .navbar_links {
-        gap: 0.4rem;
+        gap: 1rem;
         align-items: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 }

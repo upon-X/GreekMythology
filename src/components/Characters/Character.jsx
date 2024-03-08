@@ -29,8 +29,8 @@ export default function Character() {
                     <div className={styles.character_card} key={index}>
                         <img className={styles.character_img} src={character.imagen} alt='imagen del personaje' />
                         <h2 className={styles.character_nombre}>{character.nombre}</h2>
-                        <p className={styles.character_especie}>{language === "español" ? "Especie" : "Specie"}:  {language === 'español' ? character.especieEs : character.especieEn}</p>
-                        <p className={styles.character_reconocimiento}>{language === "español" ? "Reconocimiento" : "Recongnition"}: {language === 'español' ? character.reconocimientoEs.join(", ") : character.reconocimientoEn.join(", ")}</p>
+                        <p className={styles.character_especie}>{language === 'español' ? character.especieEs : character.especieEn}</p>
+                        <p className={styles.character_reconocimiento}>{language === 'español' ? character.reconocimientoEs.join(", ") : character.reconocimientoEn.join(", ")}</p>
                         {/*<p>{language === "español" ? "Familia" : "Family"}:</p>
                         <ul>
                         <li>{language === "español" ? "Padre" : "Father"}:

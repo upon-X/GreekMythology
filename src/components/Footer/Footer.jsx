@@ -13,7 +13,7 @@ export default function Footer() {
                     </span>
                 </a>
                 <br />
-                {language === 'español' ? 'Todos los derechos reservados ®️' : 'All rights reserved ®️'}
+                {language === 'español' ? 'Todos los derechos reservados 2024 ®️' : 'All rights reserved 2024 ®️'}
             </footer>
         </>
     )

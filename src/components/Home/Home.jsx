@@ -28,7 +28,7 @@ export default function Home() {
                         </a>
                         <a className={styles.a_toid} href='#titanomaquia'>
                             {language === 'español' ?
-                                'Titanomaquia' :
+                                'Titanomaquia':
                                 'Titanomachy'
                             }
                         </a>

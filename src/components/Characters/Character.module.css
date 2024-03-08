@@ -14,11 +14,8 @@
     min-height: 450px;
     background-color: var(--colorNegro);
     color: var(--colorBlanco);
-    border: 3px solid transparent;
+    /* border: 3px solid transparent; */
     transition: ease-in-out 0.15s;
-}
-
-.character_card:hover {
     border: 3px solid var(--colorNaranja);
 }
 
@@ -37,14 +34,14 @@
 }
 
 .character_nombre {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: var(--colorNaranja);
 }
 
 .character_especie,
 .character_reconocimiento {
     text-indent: 0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .pagination {
