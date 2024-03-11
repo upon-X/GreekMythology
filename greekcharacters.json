@@ -1,7 +1,8 @@
 {
     "greekcharacters": [
         {
-            "nombre": "Zeus",
+            "nombreEs": "Zeus",
+            "nombreEn": "Zeus",
             "especieEs": "Dios",
             "especieEn": "God",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/f_auto,q_auto/v1/Characters%20Greek%20Mythology/r55ooldskhvx1xddccs8",
@@ -31,128 +32,8 @@
             "descripcionEn": "Something"
         },
         {
-            "nombre": "Atenea",
-            "especieEs": "Diosa",
-            "especieEn": "Goddess",
-            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889086/Characters%20Greek%20Mythology/uve28rf4rcgw2md0yjbu.jpg",
-            "reconocimientoEs": [
-                "Diosa de la sabiduría",
-                "Diosa de la estrategia"
-            ],
-            "reconocimientoEn": [
-                "Goddess of wisdom",
-                "Goddess of strategy"
-            ],
-            "familia": {
-                "padre": "Zeus",
-                "madre": "Metis (engullida por Zeus)",
-                "hermanos": [
-                    "Apolo",
-                    "Artemisa"
-                ]
-            },
-            "descripcionEs": "Algo le pondre",
-            "descripcionEn": "Something"
-        },
-        {
-            "nombre": "Afrodita",
-            "especieEs": "Diosa",
-            "especieEn": "Goddess",
-            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695887438/Characters%20Greek%20Mythology/tbnusfvb63le36vdonzh.png",
-            "reconocimientoEs": [
-                "Diosa del amor y la belleza",
-                "Amante de Ares"
-            ],
-            "reconocimientoEn": [
-                "Goddess of love and beauty",
-                "Lover of Ares"
-            ],
-            "familia": {
-                "padre": "Urano",
-                "madre": "",
-                "hermanos": [
-                    "Hera",
-                    "Hades",
-                    "Deméter",
-                    "Poseidón",
-                    "Hestia",
-                    "Zeus"
-                ]
-            },
-            "descripcionEs": "Algo le pondre",
-            "descripcionEn": "Something"
-        },
-        {
-            "nombre": "Quiron",
-            "especieEs": "Centauro",
-            "especieEn": "Centaur",
-            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.jpg",
-            "reconocimientoEs": [
-                "Gran Educador",
-                "El centauro sabio",
-                "Tutor de Aquiles, Ayax, Jasón, y muchos otros."
-            ],
-            "reconocimientoEn": [
-                "Great Educator",
-                "The wise centaur",
-                "Tutor of Achilles, Ajax, Jason, and many others"
-            ],
-            "familia": {
-                "padre": "Cronos",
-                "madre": "Fílira",
-                "hermanos": [
-                    ""
-                ]
-            },
-            "descripcionEs": "Algo le pondre",
-            "descripcionEn": "Something"
-        },
-        {
-            "nombre": "Heracles",
-            "especieEs": "Semidios",
-            "especieEn": "Demigod",
-            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.jpg",
-            "reconocimientoEs": [
-                "Los Doce Trabajos de Heracles"
-            ],
-            "reconocimientoEn": [
-                "The Twelve Tasks of Heracles."
-            ],
-            "familia": {
-                "padre": "Zeus",
-                "madre": "Alcmena",
-                "hermanos": [
-                    "Ificles"
-                ]
-            },
-            "descripcionEs": "Algo le pondre",
-            "descripcionEn": "Something"
-        },
-        {
-            "nombre": "Sísifo",
-            "especieEs": "Humano",
-            "especieEn": "Human",
-            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.jpg",
-            "reconocimientoEs": [
-                "El hombre más inteligente",
-                "El castigo de Sísifo"
-            ],
-            "reconocimientoEn": [
-                "The smartest man",
-                "The punishment of Sisyphus"
-            ],
-            "familia": {
-                "padre": "",
-                "madre": "",
-                "hermanos": [
-                    ""
-                ]
-            },
-            "descripcionEs": "Algo le pondre",
-            "descripcionEn": "Something"
-        },
-        {
-            "nombre": "Poseidon",
+            "nombreEs": "Poseidon",
+            "nombreEn": "Poseidon",
             "especieEs": "Dios",
             "especieEn": "God",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/t_poseidon_transform/Characters%20Greek%20Mythology/wpbewcmncvcob9oqhfq8.jpg",
@@ -180,7 +61,159 @@
             "descripcionEn": "Something"
         },
         {
-            "nombre": "Tántalo",
+            "nombreEs": "Hades",
+            "nombreEn": "Hades",
+            "especieEs": "Dios",
+            "especieEn": "God",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1710192200/Characters%20Greek%20Mythology/f1x8fbtdfej796uvk9kf.webp",
+            "reconocimientoEs": [
+                "El Señor del Inframundo",
+                "Quien no puede ser visto"
+            ],
+            "reconocimientoEn": [
+                "The Lord of the Underworld",
+                "Who cannot be seen"
+            ],
+            "familia": {
+                "padre": "Urano",
+                "madre": "Gea",
+                "hermanos": [
+                    "Zeus",
+                    "Poseidon"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Atenea",
+            "nombreEn": "Athena",
+            "especieEs": "Diosa",
+            "especieEn": "Goddess",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889086/Characters%20Greek%20Mythology/uve28rf4rcgw2md0yjbu.jpg",
+            "reconocimientoEs": [
+                "Diosa de la sabiduría",
+                "Diosa de la estrategia"
+            ],
+            "reconocimientoEn": [
+                "Goddess of wisdom",
+                "Goddess of strategy"
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Metis (engullida por Zeus)",
+                "hermanos": [
+                    "Apolo",
+                    "Artemisa"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Afrodita",
+            "nombreEn": "Aphrodite",
+            "especieEs": "Diosa",
+            "especieEn": "Goddess",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695887438/Characters%20Greek%20Mythology/tbnusfvb63le36vdonzh.png",
+            "reconocimientoEs": [
+                "Diosa del amor y la belleza",
+                "Amante de Ares"
+            ],
+            "reconocimientoEn": [
+                "Goddess of love and beauty",
+                "Lover of Ares"
+            ],
+            "familia": {
+                "padre": "Urano",
+                "madre": "",
+                "hermanos": [
+                    "Hera",
+                    "Hades",
+                    "Deméter",
+                    "Poseidón",
+                    "Hestia",
+                    "Zeus"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Quiron",
+            "nombreEn": "Chiron",
+            "especieEs": "Centauro",
+            "especieEn": "Centaur",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.jpg",
+            "reconocimientoEs": [
+                "Gran Educador",
+                "El centauro sabio",
+                "Tutor de Aquiles, Ayax, Jasón, y muchos otros."
+            ],
+            "reconocimientoEn": [
+                "Great Educator",
+                "The wise centaur",
+                "Tutor of Achilles, Ajax, Jason, and many others"
+            ],
+            "familia": {
+                "padre": "Cronos",
+                "madre": "Fílira",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Heracles",
+            "nombreEn": "Heracles",
+            "especieEs": "Semidios",
+            "especieEn": "Demigod",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.jpg",
+            "reconocimientoEs": [
+                "Los Doce Trabajos de Heracles"
+            ],
+            "reconocimientoEn": [
+                "The Twelve Tasks of Heracles."
+            ],
+            "familia": {
+                "padre": "Zeus",
+                "madre": "Alcmena",
+                "hermanos": [
+                    "Ificles"
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Sísifo",
+            "nombreEn": "Sisyphus",
+            "especieEs": "Humano",
+            "especieEn": "Human",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.jpg",
+            "reconocimientoEs": [
+                "El hombre más inteligente",
+                "El castigo de Sísifo"
+            ],
+            "reconocimientoEn": [
+                "The smartest man",
+                "The punishment of Sisyphus"
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Tántalo",
+            "nombreEn": "Tantalus",
             "especieEs": "Semidios",
             "especieEn": "Demigod",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1696853184/Characters%20Greek%20Mythology/zbmkpzsgsxbqxo9qxv40.jpg",
@@ -201,7 +234,8 @@
             "descripcionEn": "Something"
         },
         {
-            "nombre": "Ixión",
+            "nombreEs": "Ixión",
+            "nombreEn": "Ixion",
             "especieEs": "Humano",
             "especieEn": "Human",
             "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1701859354/Characters%20Greek%20Mythology/o3h42c9nkchllqbjoc1v.webp",
@@ -212,6 +246,56 @@
             "reconocimientoEn": [
                 "Murderer of Deyoneo",
                 "The punishment of Ixion"
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Odiseo",
+            "nombreEn": "Odysseus",
+            "especieEs": "Humano",
+            "especieEn": "Human",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1710193543/Characters%20Greek%20Mythology/kbvlrjybfwfg6aymkjcz.webp",
+            "reconocimientoEs": [
+                "El hombre más astuto",
+                "Rey de Ítaca",
+                "Caballo de Troya"
+            ],
+            "reconocimientoEn": [
+                "The smartest man",
+                "King of Ithaca",
+                "Troy´s horse"
+            ],
+            "familia": {
+                "padre": "Sisifo",
+                "madre": "Laertes",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Aquiles",
+            "nombreEn": "Achilles",
+            "especieEs": "Semidios",
+            "especieEn": "Demigod",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/c_crop,g_north,h_600,w_800/Characters%20Greek%20Mythology/kw4iau0me7ga8g0k7ggg.webp",
+            "reconocimientoEs": [
+                "Heroe de la guerra Troya",
+                "Talon de Aquiles"
+            ],
+            "reconocimientoEn": [
+                "Hero of the Troyan War",
+                "Achilles' heel"
             ],
             "familia": {
                 "padre": "",

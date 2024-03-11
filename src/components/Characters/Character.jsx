@@ -28,7 +28,7 @@ export default function Character() {
                 {greekcharacters.map((character, index) => (
                     <div className={styles.character_card} key={index}>
                         <img className={styles.character_img} src={character.imagen} alt='imagen del personaje' />
-                        <h2 className={styles.character_nombre}>{character.nombre}</h2>
+                        <h2 className={styles.character_nombre}>{language === 'español' ? character.nombreEs : character.nombreEn}</h2>
                         <p className={styles.character_especie}>{language === 'español' ? character.especieEs : character.especieEn}</p>
                         <p className={styles.character_reconocimiento}>{language === 'español' ? character.reconocimientoEs.join(", ") : character.reconocimientoEn.join(", ")}</p>
                         {/*<p>{language === "español" ? "Familia" : "Family"}:</p>

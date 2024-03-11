@@ -1,6 +1,6 @@
 import React from "react"
-import { useLanguage } from '../../LanguageChange';
-import styles from '../Home.module.css'
+import { useLanguage } from '../LanguageChange';
+import styles from './Home.module.css'
 
 export default function Titanomaquia() {
     const { language } = useLanguage();
@@ -66,7 +66,7 @@ export default function Titanomaquia() {
                     </p>
                     <p className={`${styles.pre_p} ${styles.intro_p}`}>
                         {language === 'español' ?
-                            `Luego de la heroica victoria, ahora los dioses olimpicos pasan a reinar completamente sobre la Tierra`
+                            `Luego de la heroica victoria, ahora los dioses olimpicos pasan a reinar completamente sobre la Tierra.`
                             :
                             `After their heroic victory, the Olympian gods now reign supreme over the Earth.`
                         }

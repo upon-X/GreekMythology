@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './SearchBar.module.css';
 import { useLanguage } from '../LanguageChange';
-import { orderByName } from '../../redux/actions';
+import { orderByName, orderBySpecies } from '../../redux/actions';
 import { useDispatch, useSelector } from 'react-redux';
 
 export default function SearchBar() {
@@ -12,29 +12,37 @@ export default function SearchBar() {
     function handleSort(e) {
         e.preventDefault();
         const selectedOrder = e.target.value;
-        dispatch(orderByName(selectedOrder));
         setOrder(selectedOrder);
+        if (selectedOrder === 'SPECIES') {
+            // Specify order (ASC or DESC) based on your requirements
+            dispatch(orderBySpecies('ASC'));
+        } else {
+            dispatch(orderByName(selectedOrder));
+        }
     }
 
     return (
         <div className={styles.searchbar}>
-            <input
+            {/* <input
                 className={styles.searchbar_input}
                 type="search"
                 maxLength={20}
                 placeholder={language === 'español' ? 'Buscar...' : 'Search...'}
                 pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+"
-            />
+            /> */}
             <div className={styles.orden}>
                 <select className={styles.select} onChange={(e) => handleSort(e)} value={order}>
                     <option value="Default" hidden>
                         {language === 'español' ? 'ORDENAR POR' : 'SORT BY'}
                     </option>
-                    <option value="Default">
+                    {/* <option value="Default">
                         {language === 'español' ? 'Por Defecto' : 'Default'}
-                    </option>
+                    </option> */}
                     <option value="A-Z">A-Z</option>
                     <option value="Z-A">Z-A</option>
+                    <option value="SPECIES">
+                        {language === 'español' ? 'Especies' : 'Species'}
+                    </option>
                 </select>
             </div>
         </div>

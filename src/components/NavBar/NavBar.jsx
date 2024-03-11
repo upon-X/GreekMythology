@@ -2,8 +2,6 @@ import React from 'react';
 import styles from './NavBar.module.css'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../LanguageChange';
-import { BritishFlag } from '../../assets/svgs'
-import Spain from '../../assets/spain.png'
 
 export default function NavBar() {
     const { language, changeLanguage } = useLanguage();
@@ -30,7 +28,7 @@ export default function NavBar() {
                         {language === 'español' ? 'Batallas' : 'Battles'}
                     </Link> */}
                     <button className={styles.btn_change_lang} onClick={handleLanguageChange}>
-                        {language === 'español' ? <span className={styles.spanlang}>ES< img width={30} src={Spain}></img></span> : <span className={styles.spanlang}>EN < BritishFlag /></span>}
+                        {language === 'español' ? <span className={styles.spanlang}><img src="https://flagsapi.com/ES/flat/24.png" /></span> : <span className={styles.spanlang}><img src="https://flagsapi.com/GB/flat/24.png" /></span>}
                     </button>
                 </div>
             </nav>

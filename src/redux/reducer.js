@@ -1,5 +1,6 @@
 const initialState = {
     greekcharacters: [],
+    greekSpecies: [],
     count: 0,
 };
 
@@ -14,9 +15,9 @@ const rootReducer = (state = initialState, action) => {
             // Ordenar los datos según el payload (A-Z o Z-A)
             const sortedCharacters = [...state.greekcharacters].sort((a, b) => {
                 if (payload === 'A-Z') {
-                    return a.nombre.localeCompare(b.nombre);
+                    return a.nombreEs.localeCompare(b.nombreEs);
                 } else {
-                    return b.nombre.localeCompare(a.nombre);
+                    return b.nombreEs.localeCompare(a.nombreEs);
                 }
             });
             return {
@@ -27,6 +28,21 @@ const rootReducer = (state = initialState, action) => {
             return {
                 ...state,
                 greekcharacters: action.payload, // Actualiza 'characters' con los datos del JSON
+            };
+        case 'ORDER_BY_SPECIES':
+            const { payload: speciesOrder } = action;
+            const sortedBySpecies = [...state.greekcharacters].sort((a, b) => {
+                const speciesA = a.especieEs.toLowerCase();
+                const speciesB = b.especieEs.toLowerCase();
+                if (speciesOrder === 'ASC') {
+                    return speciesA.localeCompare(speciesB);
+                } else {
+                    return speciesB.localeCompare(speciesA);
+                }
+            })
+            return {
+                ...state,
+                greekcharacters: sortedBySpecies,
             };
         default:
             return state;

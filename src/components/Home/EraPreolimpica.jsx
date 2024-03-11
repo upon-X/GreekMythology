@@ -1,6 +1,6 @@
 import React from 'react';
-import { useLanguage } from '../../LanguageChange';
-import styles from '../Home.module.css'
+import { useLanguage } from '../LanguageChange';
+import styles from './Home.module.css'
 
 export default function EraPreolimpica() {
     const { language } = useLanguage();

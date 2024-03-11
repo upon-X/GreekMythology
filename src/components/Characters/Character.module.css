@@ -48,3 +48,17 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 599px) {
+    .character_nombre {
+        font-size: 1.6rem
+    }
+
+    .character_especie {
+        font-size: 1.4rem;
+    }
+
+    .character_reconocimiento {
+        font-size: 1.2rem;
+    }
+}

@@ -5,6 +5,13 @@ export function orderByName(payload) { //asc y desc
     }
 }
 
+export function orderBySpecies(order) { //dios, semidios, humano, centauro
+    return {
+        type: 'ORDER_BY_SPECIES',
+        payload: order,
+    }
+}
+
 export const setCharacters = (greekcharacters) => {
     return {
         type: 'SET_CHARACTERS',

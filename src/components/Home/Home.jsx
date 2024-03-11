@@ -1,19 +1,27 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { Helmet } from "react-helmet";
 import styles from './Home.module.css'
-import antiguagreciamapa from '../../assets/antiguagrecia.png'
-import EraPreolimpica from "./EraPreolimpica/EraPreolimpica";
-import Titanomaquia from "./Titanomaquia/Titanomaquia";
+import EraPreolimpica from "./EraPreolimpica";
+import Titanomaquia from "./Titanomaquia";
 import { Link } from 'react-router-dom'
 import { useLanguage } from "../LanguageChange";
 import universo from '../../assets/inicio-universo-griego-caos.jpg'
 import tierra from '../../assets/tierra.webp'
 import urano from '../../assets/urano.png'
-import { ArrowSVG } from "../../assets/svgs";
 
 export default function Home() {
     const { language } = useLanguage()
+
+    useEffect(() => {
+        document.title = language === 'español' ? 'Mitologia Griega | Valentino Micheloni' : 'Greek Mythology | Valentino Micheloni';
+    }, [language]);
     return (
         <>
+            <Helmet>
+                <title>
+                    {language === 'español' ? 'Mitologia Griega | Valentino Micheloni' : 'Greek Mythology | Valentino Micheloni'}
+                </title>
+            </Helmet>
             <div className={styles.home}>
                 <div className={styles.div_main}>
                     <img className={styles.intro_img} src={universo} alt="" id='edadpreolimpica' />
