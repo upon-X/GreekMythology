@@ -8,6 +8,7 @@
 
 .title_charac {
     text-align: center;
+    font-size: 3rem;
 }
 
 .subtitle_charac {
@@ -16,6 +17,6 @@
 
 @media (max-width: 930px) {
     .characters {
-        margin-top: 12rem;
+        margin-top: 10rem;
     }
 }

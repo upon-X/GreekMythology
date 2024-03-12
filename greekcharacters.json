@@ -306,6 +306,52 @@
             },
             "descripcionEs": "Algo le pondre",
             "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Dionisio",
+            "nombreEn": "Dionysus",
+            "especieEs": "Dios",
+            "especieEn": "God",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1710277238/Characters%20Greek%20Mythology/sskjpesby7j82pcxxfzg.webp",
+            "reconocimientoEs": [
+                "Dios del vino y la fertilidad",
+                "Dios de la festividad"
+            ],
+            "reconocimientoEn": [
+                "God of wine and fertility",
+                "God of festivity"
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
+        },
+        {
+            "nombreEs": "Jason",
+            "nombreEn": "Jason",
+            "especieEs": "Humano",
+            "especieEn": "Human",
+            "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1710278008/Characters%20Greek%20Mythology/nwrs7te3wnnumr5s4rtq.webp",
+            "reconocimientoEs": [
+                "Lider de los Argonautas"
+            ],
+            "reconocimientoEn": [
+                "Leader of the Argnauts"
+            ],
+            "familia": {
+                "padre": "",
+                "madre": "",
+                "hermanos": [
+                    ""
+                ]
+            },
+            "descripcionEs": "Algo le pondre",
+            "descripcionEn": "Something"
         }
     ]
 }

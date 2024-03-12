@@ -33,10 +33,12 @@
     text-transform: uppercase;
     padding: 0.5rem;
     color: var(--colorNaranja);
+    border: 1px solid var(--colorNaranja);
     transition: ease-in-out 0.1s;
 }
 
-.nav_link:hover {
+.nav_link:hover,
+.btn_change_lang:hover {
     color: var(--colorBlanco);
     background-color: var(--colorNaranja);
 }

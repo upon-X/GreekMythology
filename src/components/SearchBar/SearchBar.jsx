@@ -41,7 +41,7 @@ export default function SearchBar() {
                     <option value="A-Z">A-Z</option>
                     <option value="Z-A">Z-A</option>
                     <option value="SPECIES">
-                        {language === 'español' ? 'Especies' : 'Species'}
+                        {language === 'español' ? 'Especie' : 'Specie'}
                     </option>
                 </select>
             </div>
