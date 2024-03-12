@@ -25,6 +25,10 @@
     border: 1px solid var(--colorNegro);
 }
 
+.orden {
+    outline: 3px solid var(--colorNaranja);
+}
+
 @media (max-width: 930px) {
     .searchbar {
         flex-direction: column;
