@@ -1,11 +1,11 @@
 :root {
   --colorBlanco: #e9e9e9;
   --colorGris: #616161;
-  --colorNegro: rgba(11, 12, 13, 0.99);
+  --colorNegro: rgb(11, 12, 13);
   --colorNaranja: #b04a2e;
   --colorNaranjaB: #ff7048;
   --padmarg: 1.5rem 10vw;
-  --fontfamily: 'GFS Neohellenic', sans-serif;
+  --fontfamily: "GFS Neohellenic", sans-serif;
 }
 
 p {

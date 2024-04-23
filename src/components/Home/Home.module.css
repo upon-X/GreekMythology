@@ -1,93 +1,92 @@
 .home {
-    padding: var(--padmarg);
+  padding: var(--padmarg);
 }
 
 .div_main {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .introduction {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .intro_img {
-    aspect-ratio: 16/9;
-    height: 15vw;
-    width: 26vw;
+  aspect-ratio: 16/9;
+  height: 15vw;
+  width: 26vw;
 }
 
 .imgurano {
-    object-position: top;
+  object-position: top;
 }
 
 .intro_p {
-    font-size: 1.7rem;
-    text-align: justify;
+  font-size: 1.7rem;
+  text-align: justify;
 }
 
 .profecia {
-    text-indent: 0;
-    text-align: center;
-    font-size: 1.9rem;
-    background-color: #fae8d0;
-    font-style: italic;
-    padding: 2vw;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.9rem;
+  background-color: #fae8d0;
+  font-style: italic;
+  padding: 2vw;
 }
 
 .a_secciones {
-    padding: 1.7rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  padding: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .a_toid {
-    padding: 0.6rem;
-    background-color: var(--colorNaranja);
-    color: var(--colorBlanco);
+  padding: 0.6rem;
+  background-color: var(--colorNaranja);
+  color: var(--colorBlanco);
 }
 
 .link_to_characters {
-    font-size: 1.7rem;
-    text-align: center;
-    color: var(--colorNaranja);
-    stroke: var(--colorNaranja);
-    display: flex;
-    align-items: center;
-    text-decoration: underline;
+  font-size: 1.7rem;
+  text-align: center;
+  color: var(--colorNaranja);
+  stroke: var(--colorNaranja);
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
 }
 
-.link_to_characters:hover,
-.link_to_characters:hover .link_to_characters_svg {
-    color: var(--colorNaranjaB);
-    stroke: var(--colorNaranjaB);
+.link_to_characters:hover {
+  color: var(--colorNaranjaB);
+  stroke: var(--colorNaranjaB);
 }
 
 @media (max-width: 930px) {
-    .div_main {
-        margin-top: 12rem;
-    }
+  .div_main {
+    margin-top: 10rem;
+  }
 
-    .intro_img {
-        aspect-ratio: 9/16;
-        width: 25.6vw;
-        height: 25.6vw;
-    }
+  .intro_img {
+    aspect-ratio: 9/16;
+    width: 25.6vw;
+    height: 25.6vw;
+  }
 
-    .intro_p {
-        text-align: justify;
-        font-size: 1.5rem;
-    }
+  .intro_p {
+    text-align: justify;
+    font-size: 1.5rem;
+  }
 
-    .introduction {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 }

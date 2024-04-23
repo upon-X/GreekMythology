@@ -1,0 +1,12 @@
+.container_charac {
+  padding: var(--padmarg);
+}
+
+.title_charac {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.subtitle_charac {
+  text-align: center;
+}

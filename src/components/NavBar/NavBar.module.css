@@ -1,66 +1,69 @@
 .nav_container {
-    width: 100%;
-    position: fixed;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 2rem;
-    padding: var(--padmarg);
-    color: var(--colorBlanco);
-    background-color: var(--colorNegro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: var(--padmarg);
+  color: var(--colorBlanco);
+  background-color: var(--colorNegro);
 }
 
 .navbar_links {
-    font-size: 1.4rem;
-    display: flex;
-    gap: 2rem;
+  font-size: 1.4rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .btn_change_lang {
-    display: flex;
-    justify-content: center;
-    transition: ease-in-out 0.1s;
-    width: 80px;
-    border-color: var(--colorNaranja);
+  display: flex;
+  justify-content: center;
+  transition: ease-in-out 0.1s;
+  padding: 0.3rem;
+  width: 80px;
+  border-color: var(--colorNaranja);
 }
 
 .nav_link {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 0.5rem;
-    color: var(--colorNaranja);
-    border: 1px solid var(--colorNaranja);
-    transition: ease-in-out 0.1s;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: var(--colorNaranja);
+  border: 1px solid var(--colorNaranja);
+  transition: ease-in-out 0.1s;
 }
 
 .nav_link:hover,
 .btn_change_lang:hover {
-    color: var(--colorBlanco);
-    background-color: var(--colorNaranja);
+  color: var(--colorBlanco);
+  background-color: var(--colorNaranja);
 }
 
 .logo {
-    color: var(--colorNaranja);
+  color: var(--colorNaranja);
 }
 
 .spanlang {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 @media (max-width: 800px) {
-    .navbar {
-        gap: 0.5rem;
-        flex-direction: column;
-    }
+  .navbar {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
 
-    .navbar_links {
-        gap: 1rem;
-        align-items: center;
-        margin-bottom: 0.5rem;
-    }
+  .navbar_links {
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
 }
