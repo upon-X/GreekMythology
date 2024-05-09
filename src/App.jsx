@@ -7,6 +7,7 @@ import { LanguageProvider } from "./components/LanguageChange";
 import CharactersContainer from "./components/Characters/CharactersContainer";
 import Regions from "./components/Regions/Regions";
 import ScrollToTop from "./components/ScrollToTop";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ScrollToTop />
         <NavBar />
         <Routes>
+          <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<CharactersContainer />} />
           <Route path="/regions" element={<Regions />} />
