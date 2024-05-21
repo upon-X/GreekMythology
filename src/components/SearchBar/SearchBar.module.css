@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.searchbar_input {
+.search_input {
   width: 300px;
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -12,6 +12,8 @@
   text-transform: uppercase;
   font-family: var(--fontfamily);
   background-color: var(--colorNegro);
+  border: 1px solid var(--colorNaranja);
+  outline: 1px solid var(--colorNaranja);
 }
 
 .select {
@@ -22,11 +24,8 @@
   color: var(--colorNaranja);
   font-family: var(--fontfamily);
   background-color: var(--colorNegro);
-  border: 1px solid var(--colorNegro);
-}
-
-.orden {
-  outline: 3px solid var(--colorNaranja);
+  border: 1px solid var(--colorNaranja);
+  outline: 1px solid var(--colorNaranja);
 }
 
 @media (max-width: 930px) {

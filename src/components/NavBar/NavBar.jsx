@@ -1,8 +1,8 @@
 import styles from "./NavBar.module.css";
 import { Link } from "react-router-dom";
 import { useLanguage } from "../LanguageChange";
-import ESflag from "../../../public/ESflag.webp";
-import GBflag from "../../../public/GBflag.webp";
+import ESflag from "/ESflag.webp";
+import GBflag from "/GBflag.webp";
 
 export default function NavBar() {
   const { language, changeLanguage } = useLanguage();
