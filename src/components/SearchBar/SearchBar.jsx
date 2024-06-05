@@ -11,7 +11,7 @@ export default function SearchBar() {
 
   function handleSearchCharacter(e) {
     const searchQuery = e.target.value;
-    dispatch(searchByName(searchQuery));
+    e.target.value.length === 0 ? null : dispatch(searchByName(searchQuery));
   }
 
   function handleSort(e) {
