@@ -18,7 +18,7 @@ export default function Character() {
   }, [dispatch]);
 
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 500 });
   });
   return (
     <>
