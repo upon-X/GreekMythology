@@ -7,6 +7,7 @@ import styles from "./Character.module.css";
 
 export default function Character() {
   const greekcharacters = useSelector((state) => state.greekcharacters);
+  const notFound = useSelector((state) => state.notFound);
   const dispatch = useDispatch();
   const { language } = useLanguage();
 
@@ -17,30 +18,33 @@ export default function Character() {
 
   return (
     <>
-      <div className={styles.character}>
-        {greekcharacters.map((character, index) => (
-          <div className={styles.character_card} key={index}>
-            <div className={styles.character_img_container}>
-              <img
-                className={styles.character_img}
-                src={character.imagen}
-                alt="imagen del personaje"
-              />
-            </div>
-            <h2 className={styles.character_nombre}>
-              {language === "español" ? character.nombreEs : character.nombreEn}
-            </h2>
-            <p className={styles.character_especie}>
-              {language === "español"
-                ? character.especieEs
-                : character.especieEn}
-            </p>
-            <p className={styles.character_reconocimiento}>
-              {language === "español"
-                ? character.reconocimientoEs.join(", ")
-                : character.reconocimientoEn.join(", ")}
-            </p>
-            {/*<p>{language === "español" ? "Familia" : "Family"}:</p>
+      {notFound === false ? (
+        <div className={styles.character}>
+          {greekcharacters.map((character, index) => (
+            <div className={styles.character_card} key={index}>
+              <div className={styles.character_img_container}>
+                <img
+                  className={styles.character_img}
+                  src={character.imagen}
+                  alt="imagen del personaje"
+                />
+              </div>
+              <h2 className={styles.character_nombre}>
+                {language === "español"
+                  ? character.nombreEs
+                  : character.nombreEn}
+              </h2>
+              <p className={styles.character_especie}>
+                {language === "español"
+                  ? character.especieEs
+                  : character.especieEn}
+              </p>
+              <p className={styles.character_reconocimiento}>
+                {language === "español"
+                  ? character.reconocimientoEs.join(", ")
+                  : character.reconocimientoEn.join(", ")}
+              </p>
+              {/*<p>{language === "español" ? "Familia" : "Family"}:</p>
                         <ul>
                         <li>{language === "español" ? "Padre" : "Father"}:
                                 {
@@ -62,10 +66,17 @@ export default function Character() {
                             </li>
                             <li>{language === "español" ? "Hermanos" : "Siblings"}: {character.familia.hermanos.join(", ")}</li>
                         </ul> */}
-            {/* <p>{language === "español" ? "Descripción" : "Description"}: {character.descripcion}</p> */}
-          </div>
-        ))}
-      </div>
+              {/* <p>{language === "español" ? "Descripción" : "Description"}: {character.descripcion}</p> */}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className={styles.not_found_section}>
+          {language === "español"
+            ? "No se han encontrado personajes"
+            : "There are not characters"}
+        </div>
+      )}
     </>
   );
 }
