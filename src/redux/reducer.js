@@ -1,8 +1,10 @@
 /* eslint-disable no-case-declarations */
 const initialState = {
   greekcharacters: [],
+  allGreekCharacters: [], // Estado adicional para almacenar todos los personajes
   greekSpecies: [],
   count: 0,
+  notFound: false,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -12,10 +14,8 @@ const rootReducer = (state = initialState, action) => {
     case "DECREMENT":
       return { ...state, count: state.count - 1 };
     case "ORDER_BY_NAME":
-      const { payload } = action;
-      // Ordenar los datos según el payload (A-Z o Z-A)
       const sortedCharacters = [...state.greekcharacters].sort((a, b) => {
-        if (payload === "A-Z") {
+        if (action.payload === "A-Z") {
           return a.nombreEs.localeCompare(b.nombreEs);
         } else {
           return b.nombreEs.localeCompare(a.nombreEs);
@@ -28,14 +28,14 @@ const rootReducer = (state = initialState, action) => {
     case "SET_CHARACTERS":
       return {
         ...state,
-        greekcharacters: action.payload, // Actualiza 'characters' con los datos del JSON
+        greekcharacters: action.payload,
+        allGreekCharacters: action.payload, // Guardar todos los personajes
       };
     case "ORDER_BY_SPECIES":
-      const { payload: speciesOrder } = action;
       const sortedBySpecies = [...state.greekcharacters].sort((a, b) => {
         const speciesA = a.especieEs.toLowerCase();
         const speciesB = b.especieEs.toLowerCase();
-        if (speciesOrder === "ASC") {
+        if (action.payload === "ASC") {
           return speciesA.localeCompare(speciesB);
         } else {
           return speciesB.localeCompare(speciesA);
@@ -46,14 +46,22 @@ const rootReducer = (state = initialState, action) => {
         greekcharacters: sortedBySpecies,
       };
     case "SEARCH_BY_NAME":
+      if (action.payload === "") {
+        // Restablecer a todos los personajes si la búsqueda está vacía
+        return {
+          ...state,
+          greekcharacters: state.allGreekCharacters,
+          notFound: false,
+        };
+      }
       const searchQuery = action.payload.toLowerCase();
-      const filteredCharacters = state.greekcharacters.filter((character) =>
+      const filteredCharacters = state.allGreekCharacters.filter((character) =>
         character.nombreEs.toLowerCase().includes(searchQuery)
       );
       return {
         ...state,
         greekcharacters: filteredCharacters,
-        notFound: filteredCharacters.length === 0, // Si no se encontraron personajes, establece notFound en true
+        notFound: filteredCharacters.length === 0,
       };
     default:
       return state;

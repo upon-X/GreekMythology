@@ -36,7 +36,7 @@
       "nombreEn": "Poseidon",
       "especieEs": "Dios",
       "especieEn": "God",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/t_poseidon_transform/Characters%20Greek%20Mythology/wpbewcmncvcob9oqhfq8.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/t_poseidon_transform/Characters%20Greek%20Mythology/wpbewcmncvcob9oqhfq8.webp",
       "reconocimientoEs": [
         "Dios de los mares y oceanos",
         "Dios de los terremotos e inundaciones"
@@ -77,7 +77,7 @@
       "nombreEn": "Athena",
       "especieEs": "Diosa",
       "especieEn": "Goddess",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889086/Characters%20Greek%20Mythology/uve28rf4rcgw2md0yjbu.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889086/Characters%20Greek%20Mythology/uve28rf4rcgw2md0yjbu.webp",
       "reconocimientoEs": ["Diosa de la sabiduría", "Diosa de la estrategia"],
       "reconocimientoEn": ["Goddess of wisdom", "Goddess of strategy"],
       "familia": {
@@ -109,7 +109,7 @@
       "nombreEn": "Chiron",
       "especieEs": "Centauro",
       "especieEn": "Centaur",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695889520/Characters%20Greek%20Mythology/hueetjrm24jkzweqrdvj.webp",
       "reconocimientoEs": [
         "Gran Educador",
         "El centauro sabio",
@@ -133,7 +133,7 @@
       "nombreEn": "Heracles",
       "especieEs": "Semidios",
       "especieEn": "Demigod",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890277/Characters%20Greek%20Mythology/jc9objh7dqjyyyol9kn2.webp",
       "reconocimientoEs": ["Los Doce Trabajos de Heracles"],
       "reconocimientoEn": ["The Twelve Tasks of Heracles."],
       "familia": {
@@ -149,7 +149,7 @@
       "nombreEn": "Sisyphus",
       "especieEs": "Humano",
       "especieEn": "Human",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1695890276/Characters%20Greek%20Mythology/cugmex3h4h5nspfdnyct.webp",
       "reconocimientoEs": ["El hombre más inteligente", "El castigo de Sísifo"],
       "reconocimientoEn": ["The smartest man", "The punishment of Sisyphus"],
       "familia": {
@@ -165,7 +165,7 @@
       "nombreEn": "Tantalus",
       "especieEs": "Semidios",
       "especieEn": "Demigod",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1696853184/Characters%20Greek%20Mythology/zbmkpzsgsxbqxo9qxv40.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1696853184/Characters%20Greek%20Mythology/zbmkpzsgsxbqxo9qxv40.webp",
       "reconocimientoEs": ["El castigo de Tántalo"],
       "reconocimientoEn": ["The punishment of Tantalus"],
       "familia": {
@@ -272,7 +272,7 @@
       "nombreEn": "Cronus",
       "especieEs": "Titan",
       "especieEn": "Titan",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1713887721/Characters%20Greek%20Mythology/Cronos_egeirb.jpg",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1713887721/Characters%20Greek%20Mythology/Cronos_egeirb.webp",
       "reconocimientoEs": [
         "Titan primigenio",
         "Devorador de hijos",
@@ -282,6 +282,30 @@
         "Primordial Titan",
         "Child Devourer",
         "King of Titans"
+      ],
+      "familia": {
+        "padre": "",
+        "madre": "",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something"
+    },
+    {
+      "nombreEs": "Hera",
+      "nombreEn": "Hera",
+      "especieEs": "Diosa",
+      "especieEn": "Goddess",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1718119309/Characters%20Greek%20Mythology/Hera_hz4rc9.webp",
+      "reconocimientoEs": [
+        "Diosa de la fertilidad",
+        "Diosa de la familia",
+        "Esposa de Zeus"
+      ],
+      "reconocimientoEn": [
+        "Goddess of fertility",
+        "Goddess of family",
+        "Zeus´s Wife"
       ],
       "familia": {
         "padre": "",

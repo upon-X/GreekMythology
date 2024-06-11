@@ -4,8 +4,6 @@ import { setCharacters } from "../../redux/actions"; // Asegúrate de importar l
 import charjson from "../../../greekcharacters.json";
 import { useLanguage } from "../LanguageChange";
 import styles from "./Character.module.css";
-import "aos/dist/aos.css";
-import AOS from "aos";
 
 export default function Character() {
   const greekcharacters = useSelector((state) => state.greekcharacters);
@@ -17,14 +15,11 @@ export default function Character() {
     dispatch(setCharacters(jsonData.greekcharacters));
   }, [dispatch]);
 
-  useEffect(() => {
-    AOS.init({ duration: 500 });
-  });
   return (
     <>
       <div className={styles.character}>
         {greekcharacters.map((character, index) => (
-          <div data-aos="fade-up" className={styles.character_card} key={index}>
+          <div className={styles.character_card} key={index}>
             <div className={styles.character_img_container}>
               <img
                 className={styles.character_img}

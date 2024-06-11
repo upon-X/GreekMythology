@@ -7,24 +7,22 @@ import { useDispatch } from "react-redux";
 export default function SearchBar() {
   const { language } = useLanguage();
   const dispatch = useDispatch();
-  const [order, setOrder] = useState("Default"); // Agregar estado local para el orden
+  const [order, setOrder] = useState("Default");
 
-  function handleSearchCharacter(e) {
-    const searchQuery = e.target.value;
-    e.target.value.length === 0 ? null : dispatch(searchByName(searchQuery));
-  }
+  const handleSearchCharacter = (e) => {
+    const searchQuery = e.target.value.trim();
+    dispatch(searchByName(searchQuery));
+  };
 
-  function handleSort(e) {
-    e.preventDefault();
+  const handleSort = (e) => {
     const selectedOrder = e.target.value;
     setOrder(selectedOrder);
     if (selectedOrder === "SPECIES") {
-      // Specify order (ASC or DESC) based on your requirements
-      dispatch(orderBySpecies("ASC"));
+      dispatch(orderBySpecies("ASC")); // Puedes cambiar "ASC" por "DESC" si prefieres otro orden predeterminado
     } else {
       dispatch(orderByName(selectedOrder));
     }
-  }
+  };
 
   return (
     <div className={styles.searchbar}>
@@ -33,22 +31,18 @@ export default function SearchBar() {
         type="search"
         maxLength={30}
         placeholder={language === "español" ? "Buscar..." : "Search..."}
-        onChange={(e) => handleSearchCharacter(e)}
+        onChange={handleSearchCharacter}
         pattern="[A-Za-zÀ-ÖØ-öø-ÿ]+"
       />
       <div className={styles.orden}>
-        <select
-          className={styles.select}
-          onChange={(e) => handleSort(e)}
-          value={order}
-        >
+        <select className={styles.select} onChange={handleSort} value={order}>
           <option value="Default" hidden>
             {language === "español" ? "ORDENAR POR" : "SORT BY"}
           </option>
           <option value="A-Z">A-Z</option>
           <option value="Z-A">Z-A</option>
           <option value="SPECIES">
-            {language === "español" ? "Especie" : "Specie"}
+            {language === "español" ? "Especie" : "Species"}
           </option>
         </select>
       </div>

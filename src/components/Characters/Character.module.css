@@ -52,16 +52,6 @@
   height: 230px;
 }
 
-.character_card:hover .character_nombre {
-  scale: 1.3;
-}
-
-.character_card:hover .character_especie,
-.character_card:hover .character_reconocimiento {
-  scale: 1.1;
-  transition: all;
-}
-
 .character_nombre {
   font-size: 1.5rem;
   color: var(--colorNaranja);
