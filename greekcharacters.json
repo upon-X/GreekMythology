@@ -225,7 +225,7 @@
       },
       "descripcionEs": "Algo le pondre",
       "descripcionEn": "Something",
-      "tags": ["", "", ""]
+      "tags": ["Ulises", "", ""]
     },
     {
       "nombreEs": "Aquiles",
@@ -336,7 +336,7 @@
       "nombreEn": "Artemis",
       "especieEs": "Diosa",
       "especieEn": "Goddess",
-      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1718119309/Characters%20Greek%20Mythology/Hera_hz4rc9.webp",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1719351477/Characters%20Greek%20Mythology/Artemisa.webp",
       "reconocimientoEs": ["Diosa de la Caza", "Diosa de la familia"],
       "reconocimientoEn": ["Goddess of hunting", "Goddess of family"],
       "familia": {
@@ -346,7 +346,7 @@
       },
       "descripcionEs": "Algo le pondre",
       "descripcionEn": "Something",
-      "tags": ["Caza", "", ""]
+      "tags": ["Caza", "Artemisa", ""]
     }
   ]
 }

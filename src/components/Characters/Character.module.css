@@ -68,7 +68,12 @@
 }
 
 .not_found_section {
-  height: 55.7vh;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
 }
 
 @media (max-width: 599px) {
