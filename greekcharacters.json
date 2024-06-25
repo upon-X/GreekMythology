@@ -29,7 +29,8 @@
         ]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Poseidon",
@@ -51,7 +52,8 @@
         "hermanos": ["Hades", "Hera", "Deméter", "Zeus", "Hestia", "Afrodita"]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Hades",
@@ -70,7 +72,8 @@
         "hermanos": ["Zeus", "Poseidon"]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Atenea",
@@ -86,7 +89,8 @@
         "hermanos": ["Apolo", "Artemisa"]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Afrodita",
@@ -102,7 +106,8 @@
         "hermanos": ["Hera", "Hades", "Deméter", "Poseidón", "Hestia", "Zeus"]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Quiron",
@@ -126,7 +131,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Heracles",
@@ -142,7 +148,8 @@
         "hermanos": ["Ificles"]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Sísifo",
@@ -158,7 +165,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Tántalo",
@@ -174,7 +182,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Ixión",
@@ -190,7 +199,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Odiseo",
@@ -214,7 +224,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Aquiles",
@@ -230,7 +241,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Dionisio",
@@ -249,7 +261,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Jason",
@@ -265,7 +278,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Crono",
@@ -289,7 +303,8 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     },
     {
       "nombreEs": "Hera",
@@ -313,7 +328,25 @@
         "hermanos": [""]
       },
       "descripcionEs": "Algo le pondre",
-      "descripcionEn": "Something"
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
+    },
+    {
+      "nombreEs": "Artemisa",
+      "nombreEn": "Artemis",
+      "especieEs": "Diosa",
+      "especieEn": "Goddess",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1718119309/Characters%20Greek%20Mythology/Hera_hz4rc9.webp",
+      "reconocimientoEs": ["Diosa de la Caza", "Diosa de la familia"],
+      "reconocimientoEn": ["Goddess of hunting", "Goddess of family"],
+      "familia": {
+        "padre": "",
+        "madre": "",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["Caza", "", ""]
     }
   ]
 }
