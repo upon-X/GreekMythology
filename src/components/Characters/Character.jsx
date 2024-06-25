@@ -73,8 +73,8 @@ export default function Character() {
       ) : (
         <div className={styles.not_found_section}>
           {language === "español"
-            ? "No se han encontrado personajes"
-            : "There are not characters"}
+            ? "No se han encontrado personajes según tu busqueda :("
+            : "There are not characters that matches your search :("}
         </div>
       )}
     </>

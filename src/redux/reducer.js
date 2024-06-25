@@ -55,8 +55,12 @@ const rootReducer = (state = initialState, action) => {
         };
       }
       const searchQuery = action.payload.toLowerCase();
+      const query =
+        localStorage.getItem("language") === "español"
+          ? "nombreEs"
+          : "nombreEn";
       const filteredCharacters = state.allGreekCharacters.filter((character) =>
-        character.nombreEs.toLowerCase().includes(searchQuery)
+        character[query].toLowerCase().includes(searchQuery)
       );
       return {
         ...state,

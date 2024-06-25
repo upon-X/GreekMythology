@@ -1,5 +1,6 @@
 .container_charac {
   padding: var(--padmarg);
+  min-height: 71.4vh;
 }
 
 .title_charac {
