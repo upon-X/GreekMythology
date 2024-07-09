@@ -25,9 +25,9 @@ export default function NavBar() {
           {/* <Link className={styles.nav_link} to='/regions'>
                         {language === 'español' ? 'Regiones' : 'Regions'}
                     </Link> */}
-          {/* <Link className={styles.nav_link} to='/battles'>
-                        {language === 'español' ? 'Batallas' : 'Battles'}
-                    </Link> */}
+          <Link className={styles.nav_link} to="/battles">
+            {language === "español" ? "Batallas" : "Battles"}
+          </Link>
           <button
             className={styles.btn_change_lang}
             onClick={handleLanguageChange}

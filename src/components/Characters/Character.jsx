@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setCharacters } from "../../redux/actions"; // Asegúrate de importar la acción
+import { setCharacters } from "../../redux/actions";
 import charjson from "../../../greekcharacters.json";
 import { useLanguage } from "../LanguageChange";
 import styles from "./Character.module.css";

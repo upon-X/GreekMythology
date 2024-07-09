@@ -347,6 +347,31 @@
       "descripcionEs": "Algo le pondre",
       "descripcionEn": "Something",
       "tags": ["Caza", "Artemisa", ""]
+    },
+    {
+      "nombreEs": "Ares",
+      "nombreEn": "Ares",
+      "especieEs": "Dios",
+      "especieEn": "God",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1720562684/Characters%20Greek%20Mythology/ares_q74z6o.webp",
+      "reconocimientoEs": [
+        "Dios de la Guerra",
+        "El hijo odiado de Zeus",
+        "Amante de Afrodita"
+      ],
+      "reconocimientoEn": [
+        "God of War",
+        "The hated son of Zeus",
+        "Lover of Aphrodite"
+      ],
+      "familia": {
+        "padre": "Zeus",
+        "madre": "Hera",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["Ares", "Guerra", "Espartanos"]
     }
   ]
 }

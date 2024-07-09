@@ -20,6 +20,12 @@ export const setCharacters = (greekcharacters) => {
     payload: greekcharacters,
   };
 };
+export const setBattles = (battles) => {
+  return {
+    type: "SET_BATTLES",
+    payload: battles,
+  };
+};
 
 export const searchByName = (payload) => {
   return {
