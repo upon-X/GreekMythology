@@ -1,7 +1,9 @@
 /* eslint-disable no-case-declarations */
 const initialState = {
   greekcharacters: [],
+  battles: [],
   allGreekCharacters: [], // Estado adicional para almacenar todos los personajes
+  allBattles: [], // Estado adicional para almacenar todas las batallas
   greekSpecies: [],
   count: 0,
   notFound: false,
@@ -30,6 +32,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         greekcharacters: action.payload,
         allGreekCharacters: action.payload, // Guardar todos los personajes
+      };
+    case "SET_BATTLES":
+      return {
+        ...state,
+        battles: action.payload,
+        allBattles: action.payload, // Guardar todas las batallas
       };
     case "ORDER_BY_SPECIES":
       const sortedBySpecies = [...state.greekcharacters].sort((a, b) => {

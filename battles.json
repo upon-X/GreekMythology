@@ -1,0 +1,11 @@
+{
+  "battles": [
+    {
+      "titulo": "Maratón",
+      "title": "Marathon",
+      "description": "La batalla de Maratón fue una batalla que tuvo lugar en el año 490 a.C. en la llanura de Maratón, en Ática, Grecia. En ella se enfrentaron las fuerzas de Atenas y Platea contra el ejército persa. La victoria de los griegos en esta batalla fue un hito en la historia de Grecia y marcó el inicio de las Guerras Médicas.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Marathon_Battle_Marathon.jpg/800px-Marathon_Battle_Marathon.jpg",
+      "link": "https://es.wikipedia.org/wiki/Batalla_de_Marat%C3%B3n"
+    }
+  ]
+}

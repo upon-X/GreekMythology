@@ -5,9 +5,9 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { LanguageProvider } from "./components/LanguageChange";
 import CharactersContainer from "./components/Characters/CharactersContainer";
-import Regions from "./components/Regions/Regions";
 import ScrollToTop from "./components/ScrollToTop";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
+import Battles from "./components/Battles/Battles";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<CharactersContainer />} />
-          <Route path="/regions" element={<Regions />} />
+          <Route path="/battles" element={<Battles />} />
         </Routes>
         <Footer />
       </LanguageProvider>
