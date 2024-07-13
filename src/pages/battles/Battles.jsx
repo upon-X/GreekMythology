@@ -1,5 +1,5 @@
-import { ComingSoon } from "../ComingSoon/ComingSoon";
-import { useLanguage } from "../LanguageChange";
+import { ComingSoon } from "../../components/ComingSoon/ComingSoon";
+import { useLanguage } from "../../components/LanguageChange";
 import styles from "./Battles.module.css";
 // import { EveryBattle } from "./EveryBattle";
 
