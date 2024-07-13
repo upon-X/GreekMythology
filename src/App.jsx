@@ -1,13 +1,13 @@
 import "./App.css";
-import Home from "./components/Home/Home";
+import Home from "./pages/home/Home";
+import CharactersContainer from "./pages/characters/CharactersContainer";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { LanguageProvider } from "./components/LanguageChange";
-import CharactersContainer from "./components/Characters/CharactersContainer";
 import ScrollToTop from "./components/ScrollToTop";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
-import Battles from "./components/Battles/Battles";
+import Battles from "./pages/battles/Battles";
 
 function App() {
   return (

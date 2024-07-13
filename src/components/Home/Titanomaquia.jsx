@@ -1,5 +1,5 @@
 import { useLanguage } from "../LanguageChange";
-import styles from "./Home.module.css";
+import styles from "../../pages/home/Home.module.css";
 
 export default function Titanomaquia() {
   const { language } = useLanguage();

@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
 import styles from "./Home.module.css";
-import EraPreolimpica from "./EraPreolimpica";
-import Titanomaquia from "./Titanomaquia";
+import EraPreolimpica from "../../components/Home/EraPreolimpica";
+import Titanomaquia from "../../components/Home/Titanomaquia";
 import { Link } from "react-router-dom";
-import { useLanguage } from "../LanguageChange";
+import { useLanguage } from "../../components/LanguageChange";
 
 export default function Home() {
   const { language } = useLanguage();
