@@ -1,6 +1,6 @@
-import { useLanguage } from "../LanguageChange";
-import SearchBar from "../SearchBar/SearchBar";
-import Character from "./Character";
+import { useLanguage } from "../../components/LanguageChange";
+import SearchBar from "../../components/SearchBar/SearchBar";
+import Character from "../../components/Characters/Character";
 import styles from "./CharactersContainer.module.css";
 
 export default function CharactersContainer() {
