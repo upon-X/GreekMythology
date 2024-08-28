@@ -1,7 +1,7 @@
 import { ComingSoon } from "../../components/ComingSoon/ComingSoon";
 import { useLanguage } from "../../components/LanguageChange";
 import styles from "./Battles.module.css";
-// import { EveryBattle } from "./EveryBattle";
+// import { EveryBattle } from "../../components/Battles/EveryBattle";
 
 export default function Battles() {
   const { language } = useLanguage();

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import battlesjson from "../../../battles.json";
+import battlesjson from "../../../battlesList.json";
 import { setBattles } from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useLanguage } from "../LanguageChange";
@@ -17,7 +17,11 @@ export const EveryBattle = () => {
     <div>
       {battles.map((battle, index) => (
         <div key={index}>
-          <h2>{language === "español" ? battle.titulo : battle.title}</h2>
+          <h3>{language === "español" ? battle.titulo : battle.title}</h3>
+          <p>
+            {language === "español" ? battle.descripcion : battle.description}
+          </p>
+          <image src={battle.image} width={300} height={300} />
         </div>
       ))}
     </div>

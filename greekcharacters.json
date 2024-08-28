@@ -372,6 +372,131 @@
       "descripcionEs": "Algo le pondre",
       "descripcionEn": "Something",
       "tags": ["Ares", "Guerra", "Espartanos"]
+    },
+    {
+      "nombreEs": "Hefesto",
+      "nombreEn": "Hephaestus",
+      "especieEs": "Dios",
+      "especieEn": "God",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1724876243/Characters%20Greek%20Mythology/hefesto_ozmh8a.webp",
+      "reconocimientoEs": [
+        "Dios del fuego",
+        "Dios de la forja",
+        "Esposo de Afrodita"
+      ],
+      "reconocimientoEn": [
+        "God of fire",
+        "God of the forge",
+        "Husband of Aphrodite"
+      ],
+      "familia": {
+        "padre": "Zeus",
+        "madre": "Hera",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["Ares", "Forja", "Afrodita"]
+    },
+    {
+      "nombreEs": "Teseo",
+      "nombreEn": "Theseus ",
+      "especieEs": "Humano",
+      "especieEn": "Human",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1724876549/Characters%20Greek%20Mythology/teseo_lgpswa.webp",
+      "reconocimientoEs": [
+        "Héroe de Atenas",
+        "Mito del Minotauro",
+        "Rey de Atenas"
+      ],
+      "reconocimientoEn": [
+        "God of fire",
+        "God of the forge",
+        "Husband of Aphrodite"
+      ],
+      "familia": {
+        "padre": "Egeo",
+        "madre": "Etra",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
+    },
+    {
+      "nombreEs": "Amaltea",
+      "nombreEn": "Amalthea",
+      "especieEs": "Ninfa - Cabra",
+      "especieEn": "Ninph - Goat",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1724876628/Characters%20Greek%20Mythology/amaltea_aj03lq.webp",
+      "reconocimientoEs": [
+        "Cabra que amamantó a Zeus",
+        "Nodriza de Zeus",
+        "Cabra de la abundancia"
+      ],
+      "reconocimientoEn": [
+        "Goat that nursed Zeus",
+        "Nurse of Zeus",
+        "Goat of abundance"
+      ],
+      "familia": {
+        "padre": "",
+        "madre": "",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
+    },
+    {
+      "nombreEs": "Orfeo",
+      "nombreEn": "Orpheus",
+      "especieEs": "Humano",
+      "especieEn": "Human",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/v1724877028/Characters%20Greek%20Mythology/orfeo_tswfgi.webp",
+      "reconocimientoEs": [
+        "Amor por Eurídice",
+        "El lamento de Orfeo",
+        "Don de la música"
+      ],
+      "reconocimientoEn": [
+        "Love for Eurydice",
+        "Orpheus lament",
+        "Gift of music"
+      ],
+      "familia": {
+        "padre": "",
+        "madre": "",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
+    },
+    {
+      "nombreEs": "Apolo",
+      "nombreEn": "Apollo",
+      "especieEs": "Dios",
+      "especieEn": "God",
+      "imagen": "https://res.cloudinary.com/dzhiauyws/image/upload/c_crop,h_500,x_0,y_-150/v1724877217/Characters%20Greek%20Mythology/apolo_deomj3.webp",
+      "reconocimientoEs": [
+        "Dios del sol",
+        "Dios de la música",
+        "Hermano de Artemisa"
+      ],
+      "reconocimientoEn": [
+        "God of the sun",
+        "God of music",
+        "Brother of Artemis"
+      ],
+      "familia": {
+        "padre": "",
+        "madre": "",
+        "hermanos": [""]
+      },
+      "descripcionEs": "Algo le pondre",
+      "descripcionEn": "Something",
+      "tags": ["", "", ""]
     }
   ]
 }
