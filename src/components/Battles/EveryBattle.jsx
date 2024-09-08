@@ -3,6 +3,7 @@ import battlesjson from "../../../battlesList.json";
 import { setBattles } from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useLanguage } from "../LanguageChange";
+import styles from "./EveryBattle.module.css";
 
 export const EveryBattle = () => {
   const battles = useSelector((state) => state.battles);
@@ -21,7 +22,7 @@ export const EveryBattle = () => {
           <p>
             {language === "español" ? battle.descripcion : battle.description}
           </p>
-          <image src={battle.image} width={300} height={300} />
+          <image src={battle.image} className={styles.battle_image} />
         </div>
       ))}
     </div>
