@@ -1,4 +1,31 @@
+.EveryBattle_container {
+  padding: 1rem 3vw;
+}
+
+.battle_name {
+  font-size: 2rem;
+}
+.battle_desc {
+  font-size: 1.2rem;
+}
+
+.battle_image_container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .battle_image {
   aspect-ratio: 16/9;
-  width: 360px;
+  width: 40vw;
+}
+
+@media (width < 768px) {
+  .battle_image_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .battle_image {
+    min-width: 85vw;
+  }
 }
