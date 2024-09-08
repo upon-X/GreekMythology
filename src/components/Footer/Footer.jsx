@@ -16,11 +16,8 @@ export default function Footer() {
           <span className={styles.span_link_portfolio}>
             Valentino Micheloni
           </span>
-        </a>
-        <br />
-        {language === "español"
-          ? "Todos los derechos reservados 2024®️"
-          : "All rights reserved 2024®️"}
+        </a>{" "}
+        2024
       </footer>
     </>
   );
