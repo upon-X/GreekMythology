@@ -1,7 +1,7 @@
-import { ComingSoon } from "../../components/ComingSoon/ComingSoon";
+// import { ComingSoon } from "../../components/ComingSoon/ComingSoon";
 import { useLanguage } from "../../components/LanguageChange";
 import styles from "./Battles.module.css";
-// import { EveryBattle } from "../../components/Battles/EveryBattle";
+import { EveryBattle } from "../../components/Battles/EveryBattle";
 
 export default function Battles() {
   const { language } = useLanguage();
@@ -10,10 +10,10 @@ export default function Battles() {
       <h1 className={styles.title_charac}>
         {language === "español" ? "Batallas Históricas" : "Historical Battles"}
       </h1>
-      {/* <section>
+      <section>
         <EveryBattle />
-      </section> */}
-      <ComingSoon />
+      </section>
+      {/* <ComingSoon /> */}
     </div>
   );
 }
